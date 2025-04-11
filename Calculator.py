@@ -12,8 +12,8 @@ print("b. Substract")
 print("c. Multiply")
 print("d. Divide")
 choice = input("Please enter your choice (a/b/c/d):")
-num_1 = int(input("Enter the first number :  "))
-num_2 = int(input("Enter the second number : "))
+num_1 = float(input("Enter the first number :  "))
+num_2 = float(input("Enter the second number : "))
 if choice == 'a':
     print(num_1, " + ", num_2, " = ", add(num_1, num_2))
 elif choice == 'b':
